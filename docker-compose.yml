@@ -1,0 +1,7 @@
+db:
+  environment:
+    - "POSTGRES_PASSWORD=pass"
+    - "POSTGRES_DB=manatal_django"
+  image: postgres
+  ports:
+    - "5432:5432"
